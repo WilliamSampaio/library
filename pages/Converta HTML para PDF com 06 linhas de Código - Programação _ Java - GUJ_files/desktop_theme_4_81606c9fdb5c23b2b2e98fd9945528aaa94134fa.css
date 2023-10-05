@@ -1,0 +1,93 @@
+@media not all and (min-width: 1000px) {
+    .grupoCaelum {
+        display: none
+    }
+}
+
+.grupoCaelum {
+    background: #fff;
+    height: 400px;
+    border-top: 1px solid #EBEBEE
+}
+
+.grupoCaelum .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100%
+}
+
+.grupoCaelum-list {
+    display: flex;
+    list-style: none;
+    width: 60%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px
+}
+
+.grupoCaelum-title {
+    width: 20%;
+    margin-top: 54px
+}
+
+.grupoCaelum-column {
+    display: inline-block;
+    padding-left: 19px;
+    width: 180px;
+    height: 350px;
+    min-width: 160px
+}
+
+.grupoCaelum-column-title {
+    font-size: 10px;
+    color: #d7e0e5;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 19px
+}
+
+.grupoCaelum-column-list {
+    list-style: none;
+    margin-left: 0px
+}
+
+.column-item-title {
+    font-size: 11px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 6.5px
+}
+
+.grupoCaelum-column:not(:first-child) {
+    border-left: solid 1px #e3e9ed
+}
+
+.grupoCaelum-title a {
+    text-decoration: none;
+    color: #657176;
+    letter-spacing: normal;
+    font-size: 18px;
+    margin-top: 54px
+}
+
+.column-item-logo {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    display: inline-block
+}
+
+.column-item {
+    margin-bottom: 17px
+}
+
+.column-item a {
+    text-decoration: none;
+    color: #657176
+}
+
+/*# sourceMappingURL=desktop_theme_4_81606c9fdb5c23b2b2e98fd9945528aaa94134fa.css.map?__ws=www.guj.com.br */

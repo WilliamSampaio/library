@@ -21,6 +21,7 @@ def update():
         if extension == '.html':
             pages.append(page)
             print(page)
+    pages.sort()
     index = """
         <!DOCTYPE html>
         <html lang="en">

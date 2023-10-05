@@ -1,0 +1,150 @@
+.share2 {
+    width: 100%;
+    text-align: center;
+    background: #f2f5f7;
+    margin-bottom: 20px
+}
+
+.share-social {
+    overflow: hidden;
+    display: none;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 5px;
+    -webkit-font-smoothing: antialiased
+}
+
+.share-social:hover {
+    opacity: .9
+}
+
+.share-social-logo {
+    vertical-align: middle
+}
+
+.share-social-paragraph {
+    display: block;
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+    vertical-align: middle
+}
+
+#caelum {
+    background: #1e1e1e;
+    color: #fff;
+    padding: 20px 10px
+}
+
+#alura {
+    background: #2A7AE4;
+    color: #eee
+}
+
+#hipsters {
+    background: #94E1C4;
+    color: #3f3f3f
+}
+
+#cdc {
+    background: #FFEBDC;
+    color: #EF8122
+}
+
+#alura .share-social-paragraph {
+    margin-top: 8px
+}
+
+#hipsters .share-social-paragraph {
+    margin-top: 9px
+}
+
+#cdc .share-social-paragraph {
+    margin-top: 4px
+}
+
+#black-friday {
+    background-color: #000;
+    color: #fff
+}
+
+.images-banner__div {
+    position: relative;
+    height: 65px
+}
+
+.social-logo-alura {
+    width: 80px;
+    left: calc(50% - 135px);
+    z-index: 2
+}
+
+.social-logo-first {
+    width: 300px;
+    left: calc(50% - 135px);
+    top: -20px
+}
+
+.social-logo-second {
+    left: calc(50% - 220px);
+    top: 33px
+}
+
+@media (min-width: 768px) {
+    .share-social-logo {
+        margin-right: 20px
+    }
+
+    .share-social-paragraph {
+        display: inline-block;
+        margin: 0;
+        text-align: left
+    }
+
+    #alura .share-social-paragraph {
+        margin-top: 8px
+    }
+
+    #hipsters .share-social-paragraph {
+        margin-top: 9px
+    }
+
+    #cdc .share-social-paragraph {
+        margin-top: 4px
+    }
+
+    .images-banner__div {
+        position: relative;
+        height: 55px;
+        display: flex;
+        width: 320px
+    }
+
+    .social-logo-alura {
+        width: 130px;
+        z-index: 2
+    }
+
+    .social-logo-first {
+        width: 300px
+    }
+
+    .social-logo-second {
+        top: 33px;
+        width: 50px
+    }
+
+    .share-social-paragraph {
+        vertical-align: 6px
+    }
+}
+
+.share-social-paragraph strong {
+    display: block
+}
+
+.share-social-paragraph span {
+    display: block
+}
+
+/*# sourceMappingURL=desktop_theme_5_0ba28ec1005ef9e341e3bc8afcb115c77cd4b036.css.map?__ws=www.guj.com.br */
