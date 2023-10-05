@@ -14,7 +14,7 @@ EXTENSIONS = ['.html', '.pdf']
 def parse_pages(pages: list[str]) -> str:
     html = ''
     for page in pages:
-        html += '<li><a href="{}">{}</a></li>\n\t'.format(page, page)
+        html += '<li><a href="pages/{}">{}</a></li>\n\t'.format(page, page)
     return html
 
 
@@ -47,7 +47,7 @@ def update():
 </html>""".format(
         parse_pages(pages)
     )
-    with open(os.path.join(BASE_DIR, 'pages', 'index.html'), 'w') as f:
+    with open(os.path.join(BASE_DIR, 'index.html'), 'w') as f:
         f.write(index)
 
 
