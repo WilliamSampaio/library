@@ -2,12 +2,13 @@ import os
 import pathlib
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+EXTENSIONS = ['.html', '.pdf']
 
 
 def parse_pages(pages: list[str]) -> str:
     html = ''
     for page in pages:
-        html += "<li><a href='{}'>{}</a></li>".format(page, page)
+        html += '<li><a href="{}">{}</a></li>\n\t'.format(page, page)
     return html
 
 
@@ -18,27 +19,26 @@ def update():
         if page == 'index.html':
             continue
         extension = pathlib.Path(os.path.join(path, page)).suffix
-        if extension == '.html':
+        if extension in EXTENSIONS:
             pages.append(page)
             print(page)
     pages.sort()
     index = """
-        <!DOCTYPE html>
-        <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>My Library</title>
-        </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+</head>
 
-        <body>
-            <h1>My Library</h1>
-            <ul>{}</ul>
-        </body>
+<body>
+    <h1>My Library</h1>
+    <ul>{}</ul>
+</body>
 
-        </html>
-    """.format(
+</html>""".format(
         parse_pages(pages)
     )
     with open(os.path.join(BASE_DIR, 'pages', 'index.html'), 'w') as f:
