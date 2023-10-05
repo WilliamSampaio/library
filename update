@@ -31,7 +31,7 @@ def update():
     pages.sort()
     index = """
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
