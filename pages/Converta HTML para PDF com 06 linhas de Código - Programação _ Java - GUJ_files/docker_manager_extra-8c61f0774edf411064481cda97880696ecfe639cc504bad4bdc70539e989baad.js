@@ -1,2 +1,0 @@
-Ember.TEMPLATES["javascripts/upgrade-header"] = Ember.HTMLBars.template({ id: null, block: '[[[1,[28,[35,0],null,[["versionCheck"],[[33,1]]]]],[1,"\\n"]],[],false,["upgrade-notice","versionCheck"]]', moduleName: "javascripts/upgrade-header", isStrictMode: !1 });
-//# sourceMappingURL=docker_manager_extra-8c61f0774edf411064481cda97880696ecfe639cc504bad4bdc70539e989baad.js.map
